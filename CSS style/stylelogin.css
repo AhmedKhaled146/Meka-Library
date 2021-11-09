@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:inherit;
+}
+p{
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	color: red;
+}
+.form{
+  position: absolute;
+  font-family:cursive;
+  top:20%;
+  left: 35%;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  background-color: #d3e3f1;
+  box-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black;
+  padding: 40px;
+}
+.form:hover{
+	box-shadow: 0 0 25px #a5caff, 0 0 25px black, 0 0 25px  black;
+}
+h2{
+	font-size: 40px;
+	box-shadow: 0 0 0 black, 0 0 0 black, 0 0 0  black;;
+}
+h2:hover{
+	color: #5c5e5f;
+	font-size: 44px;
+}
+.form h1,h2{
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 0.5px solid silver;
+}
+.aaa {
+	border-radius: 30px;
+	font-size: 32px;
+	background-color: #5e6d79;
+	border: 25%;
+	border-color: white;
+	position: relative;
+	left: 17%;
+	color: white;
+	width: 66%;
+	height: 12%;
+	font-family: cursive;
+	box-shadow: 0 0 25px #6c757d, 0 0 25px #6c757d, 0 0 25px #6c757d;
+}
+.aaa:hover{
+	font-size: 39px;
+	font-family: Forte;
+	color: white;
+	box-shadow: 0 0 25px #404346, 0 0 25px #404346, 0 0 25px #404346;
+}
+form .textfield{
+	position: relative;
+	margin: 30px 0;
+	border-bottom: 2px solid silver;
+}
+.textfield input{
+	border-width: 20px;
+	width: 80%;
+	height: 40px;
+	font-size: 13px;
+	border: none;
+	outline: none;
+	background-color: #d3e3f1;
+}
+.form h3{
+	color: red;
+}
+label{
+	left: 4%;
+	position: absolute;
+	top: -50%;
+	font-size: 20px;
+}
+.divv{
+	background-color: #5e6d79;
+	border: 25px;
+	border-radius: 25px;
+	color: white;
+	position: absolute;
+	top: 86%;
+	left: 29%;
+	width: 42%;
+	height: 8%;
+	border: outset;
+	border-color: white;
+	font-size: 32px;
+	font-weight: 663px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	box-shadow: 0 0 25px #6c757d, 0 0 25px #6c757d, 0 0 25px #6c757d;
+}
+.divv:hover{
+	color: white;
+	font-size: 39px;
+	font-family: Forte;
+	box-shadow: 0 0 25px #404346, 0 0 25px #404346, 0 0 25px #404346;
+}
+h3{
+	font-size: 1.5rem;
+}
+img{
+	opacity: 0.8; 
+	position: absolute;
+	width: 100%;
+	height: 95.4%;
+}
+.small{
+	text-align: center;
+	font-family: cursive;
+}
+.topnav {
+	color: white;
+	overflow: hidden;
+	background-color: #545454;
+	margin: 0;
+	padding: 0;
+}
+span{
+	position: relative;
+	left: 30px;
+	top: 10px;
+	font-size: 30px;
+}
+span:hover{
+	position: absolute;
+	top: -10px;
+	color: red;
+	font-size: 40px;
+	font-family: cursive;
+}
+.topnav a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+}
+.topnav a:hover {
+	background-color: red;
+	color: black;
+	font-size: 30px;
+	font-family: cursive;
+}
+.lib-name{
+	color: red;
+}

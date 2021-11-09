@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="description" content="this library important about information ... ">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="CSS style/stylesignup.css">
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <div>
+      <img src="images/background.jpg">
+      <form method="POST" action='testsignup.php' class="form">
+        <h1 style="color:red">Meka Library</h1>
+        <h2>Sign Up</h2>
+        <div class="textfield">
+          <label>Your Username : </label>
+          <input type="text" name="userName" placeholder="Your Name" required>
+        </div>
+        <div class="textfield">
+          <label>Your Password : </label>
+          <input type="password" name="pass" placeholder="Your Password" required>
+        </div>
+        <div class="textfield">
+          <label>Your E-mail : </label>
+          <input type="email" name="email" placeholder="Your E-mail" required>
+        </div>
+        <div class="textfield">
+          <label>Your Phone Number : </label>
+          <input type="phone" name="phone" placeholder="Your Phone Number" required>
+        </div>
+        <input type="submit" name="save" value="Sign Up" class="button">
+      </form>
+    </div>
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("form").animate({
+            width: '500px',
+            height: '700px',
+          }, 500);
+        }); // it will hid0e the login word -->*/
+      </script>
+  </body>
+</html>

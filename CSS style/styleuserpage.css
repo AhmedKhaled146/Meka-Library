@@ -1,0 +1,110 @@
+body{
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  background-color: #5f6971;
+}
+table{
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 8.5%;
+	border-radius: 30px;
+}
+table,th,td,tr{
+	padding: 20px;
+	text-align: center;
+	font-weight: 200;
+	font-size: 20px;
+	border-left: 1px solid silver;
+	border-bottom: 5px solid #5f6971;
+	width: 1100px;
+	background-color: #545454;
+}
+th,td{
+	padding-bottom: 10px;
+}
+.test{
+	background-color:#d3e3f1;
+	padding-top: 20px;
+	position: absolute;
+	height: 550px;
+	width: 1300px;
+	text-align: center;
+	top: 10%;
+	left: 15%;
+	border-radius: 20px;
+	box-shadow: 0 0 25px #4c4848, 0 0 25px #4c4848, 0 0 25px  #4c4848;
+}
+.test:hover{
+	box-shadow: 0 0 25px black, 0 0 25px black, 0 0 25px  black;
+}
+.topnav {
+	color: white;
+  overflow: hidden;
+  background-color: #545454;
+  margin: 0;
+  padding: 0;
+}
+  .name{
+  	position: relative;
+  	left: 30px;
+  	top: 9px;
+  	font-size: 30px;
+  }
+  .name:hover{
+  	position: absolute;
+  	top: -10px;
+  	color: red;
+  	font-size: 40px;
+  	font-family: cursive;
+  }
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+  background-color: red;
+  color: black;
+  font-family: cursive;
+	font-size: 28px;
+}
+.aaa {
+	border-top: 500px;
+  border-radius: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #5e6d79;
+  border: 25%;
+  border-color: white;
+  position: relative;
+  top: 10%;
+  left: 8%;
+  color: white;
+  width: 85%;
+  height: 17%;
+  box-shadow: 0 0 25px black, 0 0 25px black, 0 0 25px black;
+}
+.none{
+	border-bottom: none;
+}
+.aaa:hover{
+	background-color: #404346;
+	font-size: 55px;
+	color: white;
+	box-shadow: 0 0 25px #404346, 0 0 25px #404346, 0 0 25px #404346;
+}
+.info{
+	position: relative;
+	top: 10%;
+	font-size: 60px;
+}
+.info:hover{
+	color: red;
+}
